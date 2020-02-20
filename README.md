@@ -4,9 +4,23 @@ Here we will document our api using swagger. Swagger is just an amazing tool to 
 
 ## We will just add the following dependency to pom.xml and pom.xml will look like this.
 
+```
+ <dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.9.2</version>
+ </dependency>
+
+<dependency>
+    <groupId>io.springfox</groupId>
+     <artifactId>springfox-swagger-ui</artifactId>
+     <version>2.9.2</version>
+</dependency>
+```
+
 ![Screenshot from 2020-02-20 03-09-22](https://user-images.githubusercontent.com/31029148/74879086-70bb3580-538e-11ea-8df3-81afc5a92eb1.png)
 
-## In the main class add the following annotation @EnableSwagger2
+## In the main class add the following annotation ```@EnableSwagger2```
 
 ![Screenshot from 2020-02-20 03-10-47](https://user-images.githubusercontent.com/31029148/74879185-9f391080-538e-11ea-8c3d-aa1591a12cd4.png)
 
@@ -48,6 +62,5 @@ Just open the server controller and it will look like this. We can see the url m
 
 ![Screenshot from 2020-02-20 03-27-58](https://user-images.githubusercontent.com/31029148/74880347-0788f180-5391-11ea-80fe-7b0bab5d1e66.png)
 
-## Thank You!
 
 
